@@ -76,6 +76,7 @@ def get_inverse_hvp_lissa(
     damping,  # damping parameters to stabilize the inverse HVP calculation
     num_samples,
     recursion_depth,
+    loss_scale=1,
     scale=1e4,
 ):
     ihvp = None
@@ -99,8 +100,8 @@ def get_inverse_hvp_lissa(
 
             model.zero_grad()
             output = model(input_ids, attention_mask=input_mask, labels=label_id)
-            train_loss = output.loss * 1e-5
-            # print(train_loss)
+            train_loss = output.loss * loss_scale
+
             # !ERROR: hvp has NaN values
             hvp = hv(train_loss, param_influence, cur_estimate)
 
@@ -112,7 +113,15 @@ def get_inverse_hvp_lissa(
 
                 print(
                     "Recursion at depth %s: norm is %f"
-                    % (j, np.linalg.norm(gather_flat_grad(cur_estimate).cpu().numpy()))
+                    % (
+                        j,
+                        np.linalg.norm(
+                            gather_flat_grad(cur_estimate)
+                            .to(torch.float32)
+                            .cpu()
+                            .numpy()
+                        ),
+                    )
                 )
 
         if ihvp == None:

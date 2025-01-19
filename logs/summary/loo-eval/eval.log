@@ -1,0 +1,12 @@
+====================== evaluate all finetuned models
+Average ROUGE-1: 0.2936914595433424
+Average ROUGE-2: 0.06395909126559282
+Average ROUGE-L: 0.22908567295803933
+=======================evaluate loo most==================
+average rouge1:0.2971089889050694
+average rouge2:0.07237003761199372
+average rougeL:0.23925321590734352
+==========================evaluate loo least ===============
+average rouge1:0.27022139441632104
+average rouge2:0.0664467660046037
+average rougeL:0.2094957327874077

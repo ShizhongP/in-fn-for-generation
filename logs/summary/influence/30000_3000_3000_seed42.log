@@ -1,0 +1,320 @@
+====================test example: 0======================================
+ loss: tensor(0.0230, device='cuda:0', grad_fn=<MulBackward0>)
+len of traindataset 30000
+######## START COMPUTING IHVP ########
+Recursion at depth 0: norm is 0.125863
+Recursion at depth 200: norm is 8.654841
+Recursion at depth 400: norm is 9.190510
+Recursion at depth 600: norm is 9.313373
+Recursion at depth 800: norm is 9.314757
+Recursion at depth 1000: norm is 9.303090
+Recursion at depth 1200: norm is 9.333562
+Recursion at depth 1400: norm is 9.347337
+Recursion at depth 1600: norm is 9.399684
+Recursion at depth 1800: norm is 9.389694
+Recursion at depth 2000: norm is 9.459481
+Recursion at depth 2200: norm is 9.496763
+Recursion at depth 2400: norm is 9.490389
+Recursion at depth 2600: norm is 9.489272
+Recursion at depth 2800: norm is 9.554091
+Recursion at depth 3000: norm is 9.551081
+Recursion at depth 3200: norm is 9.567074
+Recursion at depth 3400: norm is 9.569996
+Recursion at depth 3600: norm is 9.564068
+Recursion at depth 3800: norm is 9.588473
+Recursion at depth 4000: norm is 9.585907
+Recursion at depth 4200: norm is 9.756824
+Recursion at depth 4400: norm is 9.780238
+Recursion at depth 4499: norm is 9.793439
+######## FINISHED COMPUTING IHVP ########
+inverse_hvp: tensor([ 6.6124e-08,  1.7602e-07, -2.6077e-07,  ..., -4.0829e-06,
+        -1.2517e-05, -4.0829e-06], device='cuda:0', dtype=torch.bfloat16)
+Train set index: 100%|██████████| 30000/30000 [19:35<00:00, 25.52it/s]
+====================test example: 1======================================
+ loss: tensor(0.0279, device='cuda:0', grad_fn=<MulBackward0>)
+len of traindataset 30000
+######## START COMPUTING IHVP ########
+Recursion at depth 0: norm is 0.155072
+Recursion at depth 200: norm is 10.832218
+Recursion at depth 400: norm is 12.113464
+Recursion at depth 600: norm is 12.663466
+Recursion at depth 800: norm is 12.468938
+Recursion at depth 1000: norm is 12.908704
+Recursion at depth 1200: norm is 12.941697
+Recursion at depth 1400: norm is 13.546585
+Recursion at depth 1600: norm is 13.635581
+Recursion at depth 1800: norm is 13.969149
+Recursion at depth 2000: norm is 15.808049
+Recursion at depth 2200: norm is 15.455676
+Recursion at depth 2400: norm is 15.791433
+Recursion at depth 2600: norm is 15.824063
+Recursion at depth 2800: norm is 15.973456
+Recursion at depth 3000: norm is 16.217779
+Recursion at depth 3200: norm is 16.106342
+Recursion at depth 3400: norm is 16.023407
+Recursion at depth 3600: norm is 16.005775
+Recursion at depth 3800: norm is 15.428082
+Recursion at depth 4000: norm is 15.834096
+Recursion at depth 4200: norm is 15.938578
+Recursion at depth 4400: norm is 15.967518
+Recursion at depth 4499: norm is 15.626933
+######## FINISHED COMPUTING IHVP ########
+inverse_hvp: tensor([-2.4028e-07, -2.1234e-07,  2.5705e-07,  ...,  3.2663e-05,
+         8.1658e-06,  3.1292e-06], device='cuda:0', dtype=torch.bfloat16)
+Train set index: 100%|██████████| 30000/30000 [20:19<00:00, 24.60it/s]
+====================test example: 2======================================
+ loss: tensor(0.0165, device='cuda:0', grad_fn=<MulBackward0>)
+len of traindataset 30000
+######## START COMPUTING IHVP ########
+Recursion at depth 0: norm is 0.092706
+Recursion at depth 200: norm is 6.444446
+Recursion at depth 400: norm is 6.829885
+Recursion at depth 600: norm is 6.885294
+Recursion at depth 800: norm is 6.919654
+Recursion at depth 1000: norm is 6.970932
+Recursion at depth 1200: norm is 6.977200
+Recursion at depth 1400: norm is 7.011880
+Recursion at depth 1600: norm is 7.200767
+Recursion at depth 1800: norm is 7.262277
+Recursion at depth 2000: norm is 7.262067
+Recursion at depth 2200: norm is 7.283370
+Recursion at depth 2400: norm is 7.295090
+Recursion at depth 2600: norm is 7.306193
+Recursion at depth 2800: norm is 7.299913
+Recursion at depth 3000: norm is 7.300943
+Recursion at depth 3200: norm is 7.302222
+Recursion at depth 3400: norm is 7.497781
+Recursion at depth 3600: norm is 7.532568
+Recursion at depth 3800: norm is 7.530846
+Recursion at depth 4000: norm is 7.538873
+Recursion at depth 4200: norm is 7.836698
+Recursion at depth 4400: norm is 7.875153
+Recursion at depth 4499: norm is 7.885011
+######## FINISHED COMPUTING IHVP ########
+inverse_hvp: tensor([-6.1467e-08,  1.3877e-07,  1.0524e-07,  ...,  8.1658e-06,
+        -2.5034e-05,  2.5705e-07], device='cuda:0', dtype=torch.bfloat16)
+Train set index: 100%|██████████| 30000/30000 [19:14<00:00, 25.98it/s]
+====================test example: 3======================================
+ loss: tensor(0.0445, device='cuda:0', grad_fn=<MulBackward0>)
+len of traindataset 30000
+######## START COMPUTING IHVP ########
+Recursion at depth 0: norm is 0.204399
+Recursion at depth 200: norm is 14.280125
+Recursion at depth 400: norm is 14.905560
+Recursion at depth 600: norm is 15.009358
+Recursion at depth 800: norm is 15.176588
+Recursion at depth 1000: norm is 15.215185
+Recursion at depth 1200: norm is 15.313102
+Recursion at depth 1400: norm is 15.695178
+Recursion at depth 1600: norm is 15.765046
+Recursion at depth 1800: norm is 15.867601
+Recursion at depth 2000: norm is 16.162296
+Recursion at depth 2200: norm is 16.197598
+Recursion at depth 2400: norm is 16.234915
+Recursion at depth 2600: norm is 16.610086
+Recursion at depth 2800: norm is 16.515530
+Recursion at depth 3000: norm is 16.513325
+Recursion at depth 3200: norm is 16.503174
+Recursion at depth 3400: norm is 16.516851
+Recursion at depth 3600: norm is 16.543299
+Recursion at depth 3800: norm is 16.673193
+Recursion at depth 4000: norm is 16.635324
+Recursion at depth 4200: norm is 16.796635
+Recursion at depth 4400: norm is 16.746780
+Recursion at depth 4499: norm is 16.698643
+######## FINISHED COMPUTING IHVP ########
+inverse_hvp: tensor([ 5.3318e-08, -1.2759e-07, -7.6368e-08,  ...,  1.6332e-05,
+         6.5327e-05,  1.2517e-05], device='cuda:0', dtype=torch.bfloat16)
+Train set index: 100%|██████████| 30000/30000 [19:38<00:00, 25.46it/s]
+====================test example: 4======================================
+ loss: tensor(0.0234, device='cuda:0', grad_fn=<MulBackward0>)
+len of traindataset 30000
+######## START COMPUTING IHVP ########
+Recursion at depth 0: norm is 0.170336
+Recursion at depth 200: norm is 11.983575
+Recursion at depth 400: norm is 13.733478
+Recursion at depth 600: norm is 13.830777
+Recursion at depth 800: norm is 13.903862
+Recursion at depth 1000: norm is 14.524327
+Recursion at depth 1200: norm is 14.893278
+Recursion at depth 1400: norm is 14.848613
+Recursion at depth 1600: norm is 14.609480
+Recursion at depth 1800: norm is 14.784294
+Recursion at depth 2000: norm is 14.824445
+Recursion at depth 2200: norm is 15.790593
+Recursion at depth 2400: norm is 15.774895
+Recursion at depth 2600: norm is 15.756003
+Recursion at depth 2800: norm is 15.744400
+Recursion at depth 3000: norm is 15.577909
+Recursion at depth 3200: norm is 15.302768
+Recursion at depth 3400: norm is 15.673893
+Recursion at depth 3600: norm is 15.589507
+Recursion at depth 3800: norm is 15.733931
+Recursion at depth 4000: norm is 15.616191
+Recursion at depth 4200: norm is 15.929541
+Recursion at depth 4400: norm is 16.089096
+Recursion at depth 4499: norm is 16.090918
+######## FINISHED COMPUTING IHVP ########
+inverse_hvp: tensor([5.3272e-07, 2.6636e-07, 5.8115e-07,  ..., 1.6332e-05, 5.0068e-05,
+        1.5646e-06], device='cuda:0', dtype=torch.bfloat16)
+Train set index: 100%|██████████| 30000/30000 [19:51<00:00, 25.17it/s]
+====================test example: 5======================================
+ loss: tensor(0.0246, device='cuda:0', grad_fn=<MulBackward0>)
+len of traindataset 30000
+######## START COMPUTING IHVP ########
+Recursion at depth 0: norm is 0.121810
+Recursion at depth 200: norm is 8.360209
+Recursion at depth 400: norm is 8.875549
+Recursion at depth 600: norm is 8.956800
+Recursion at depth 800: norm is 9.219600
+Recursion at depth 1000: norm is 9.276332
+Recursion at depth 1200: norm is 9.298748
+Recursion at depth 1400: norm is 9.585082
+Recursion at depth 1600: norm is 9.706594
+Recursion at depth 1800: norm is 9.719789
+Recursion at depth 2000: norm is 9.821321
+Recursion at depth 2200: norm is 9.823512
+Recursion at depth 2400: norm is 10.042622
+Recursion at depth 2600: norm is 10.199114
+Recursion at depth 2800: norm is 10.252500
+Recursion at depth 3000: norm is 10.149735
+Recursion at depth 3200: norm is 10.355267
+Recursion at depth 3400: norm is 10.569717
+Recursion at depth 3600: norm is 10.553460
+Recursion at depth 3800: norm is 10.888927
+Recursion at depth 4000: norm is 10.886292
+Recursion at depth 4200: norm is 11.186350
+Recursion at depth 4400: norm is 11.182346
+Recursion at depth 4499: norm is 11.188232
+######## FINISHED COMPUTING IHVP ########
+inverse_hvp: tensor([ 3.0035e-08,  1.7788e-07, -5.1456e-08,  ..., -6.2585e-06,
+        -6.5327e-05, -1.0207e-06], device='cuda:0', dtype=torch.bfloat16)
+Train set index: 100%|██████████| 30000/30000 [19:33<00:00, 25.57it/s]
+====================test example: 6======================================
+ loss: tensor(0.0278, device='cuda:0', grad_fn=<MulBackward0>)
+len of traindataset 30000
+######## START COMPUTING IHVP ########
+Recursion at depth 0: norm is 0.107856
+Recursion at depth 200: norm is 7.392168
+Recursion at depth 400: norm is 7.791256
+Recursion at depth 600: norm is 7.870235
+Recursion at depth 800: norm is 7.898916
+Recursion at depth 1000: norm is 7.916296
+Recursion at depth 1200: norm is 7.913392
+Recursion at depth 1400: norm is 7.947817
+Recursion at depth 1600: norm is 8.050328
+Recursion at depth 1800: norm is 8.083349
+Recursion at depth 2000: norm is 8.092225
+Recursion at depth 2200: norm is 8.076015
+Recursion at depth 2400: norm is 8.053933
+Recursion at depth 2600: norm is 8.228823
+Recursion at depth 2800: norm is 8.516932
+Recursion at depth 3000: norm is 8.596601
+Recursion at depth 3200: norm is 16.101881
+Recursion at depth 3400: norm is 14.428217
+Recursion at depth 3600: norm is 14.353481
+Recursion at depth 3800: norm is 14.163577
+Recursion at depth 4000: norm is 13.888882
+Recursion at depth 4200: norm is 13.976655
+Recursion at depth 4400: norm is 14.051138
+Recursion at depth 4499: norm is 14.193911
+######## FINISHED COMPUTING IHVP ########
+inverse_hvp: tensor([ 6.3796e-08,  5.6997e-07, -2.1700e-07,  ...,  7.8231e-07,
+        -2.5034e-05,  3.1292e-06], device='cuda:0', dtype=torch.bfloat16)
+Train set index: 100%|██████████| 30000/30000 [21:18<00:00, 23.47it/s]
+====================test example: 7======================================
+ loss: tensor(0.0325, device='cuda:0', grad_fn=<MulBackward0>)
+len of traindataset 30000
+######## START COMPUTING IHVP ########
+Recursion at depth 0: norm is 0.197950
+Recursion at depth 200: norm is 13.846393
+Recursion at depth 400: norm is 14.411400
+Recursion at depth 600: norm is 28.548025
+Recursion at depth 800: norm is 28.233511
+Recursion at depth 1000: norm is 28.361376
+Recursion at depth 1200: norm is 27.838142
+Recursion at depth 1400: norm is 27.102139
+Recursion at depth 1600: norm is 25.911852
+Recursion at depth 1800: norm is 25.813135
+Recursion at depth 2000: norm is 25.709654
+Recursion at depth 2200: norm is 25.945692
+Recursion at depth 2400: norm is 26.054483
+Recursion at depth 2600: norm is 26.188921
+Recursion at depth 2800: norm is 25.942804
+Recursion at depth 3000: norm is 25.851004
+Recursion at depth 3200: norm is 26.019230
+Recursion at depth 3400: norm is 32.092506
+Recursion at depth 3600: norm is 31.799833
+Recursion at depth 3800: norm is 31.699993
+Recursion at depth 4000: norm is 30.803957
+Recursion at depth 4200: norm is 29.106194
+Recursion at depth 4400: norm is 29.102680
+Recursion at depth 4499: norm is 28.995310
+######## FINISHED COMPUTING IHVP ########
+inverse_hvp: tensor([ 4.7684e-07, -1.0664e-07, -2.5332e-07,  ...,  1.6332e-05,
+         3.2663e-05, -2.0415e-06], device='cuda:0', dtype=torch.bfloat16)
+Train set index: 100%|██████████| 30000/30000 [20:17<00:00, 24.63it/s]
+====================test example: 8======================================
+ loss: tensor(0.0370, device='cuda:0', grad_fn=<MulBackward0>)
+len of traindataset 30000
+######## START COMPUTING IHVP ########
+Recursion at depth 0: norm is 0.115739
+Recursion at depth 200: norm is 7.929761
+Recursion at depth 400: norm is 8.412388
+Recursion at depth 600: norm is 8.447202
+Recursion at depth 800: norm is 8.478775
+Recursion at depth 1000: norm is 8.507248
+Recursion at depth 1200: norm is 8.617958
+Recursion at depth 1400: norm is 8.604177
+Recursion at depth 1600: norm is 8.625663
+Recursion at depth 1800: norm is 8.663033
+Recursion at depth 2000: norm is 8.698076
+Recursion at depth 2200: norm is 8.711054
+Recursion at depth 2400: norm is 8.651614
+Recursion at depth 2600: norm is 8.759000
+Recursion at depth 2800: norm is 8.761760
+Recursion at depth 3000: norm is 8.762509
+Recursion at depth 3200: norm is 8.842787
+Recursion at depth 3400: norm is 10.055709
+Recursion at depth 3600: norm is 10.067150
+Recursion at depth 3800: norm is 10.001190
+Recursion at depth 4000: norm is 10.012584
+Recursion at depth 4200: norm is 10.153885
+Recursion at depth 4400: norm is 10.087527
+Recursion at depth 4499: norm is 10.161756
+######## FINISHED COMPUTING IHVP ########
+inverse_hvp: tensor([-2.5891e-07, -2.6822e-07, -5.1036e-07,  ...,  8.1658e-06,
+         6.5327e-05, -1.0207e-06], device='cuda:0', dtype=torch.bfloat16)
+Train set index: 100%|██████████| 30000/30000 [19:00<00:00, 26.31it/s]
+====================test example: 9======================================
+ loss: tensor(0.0246, device='cuda:0', grad_fn=<MulBackward0>)
+len of traindataset 30000
+######## START COMPUTING IHVP ########
+Recursion at depth 0: norm is 0.113240
+Recursion at depth 200: norm is 7.889523
+Recursion at depth 400: norm is 8.210333
+Recursion at depth 600: norm is 9.093567
+Recursion at depth 800: norm is 9.162790
+Recursion at depth 1000: norm is 9.094481
+Recursion at depth 1200: norm is 9.126731
+Recursion at depth 1400: norm is 9.175330
+Recursion at depth 1600: norm is 9.221914
+Recursion at depth 1800: norm is 9.320100
+Recursion at depth 2000: norm is 9.317429
+Recursion at depth 2200: norm is 9.369915
+Recursion at depth 2400: norm is 9.487803
+Recursion at depth 2600: norm is 9.511250
+Recursion at depth 2800: norm is 9.536650
+Recursion at depth 3000: norm is 9.503697
+Recursion at depth 3200: norm is 9.507857
+Recursion at depth 3400: norm is 9.542685
+Recursion at depth 3600: norm is 9.570725
+Recursion at depth 3800: norm is 9.603239
+Recursion at depth 4000: norm is 9.728828
+Recursion at depth 4200: norm is 9.712371
+Recursion at depth 4400: norm is 9.720481
+Recursion at depth 4499: norm is 9.712909
+######## FINISHED COMPUTING IHVP ########
+inverse_hvp: tensor([ 7.0781e-08, -4.1618e-09,  1.3690e-07,  ...,  1.2517e-05,
+         5.0068e-05, -2.0415e-06], device='cuda:0', dtype=torch.bfloat16)
+Train set index: 100%|██████████| 30000/30000 [18:57<00:00, 26.37it/s]
