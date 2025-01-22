@@ -100,7 +100,8 @@ def get_inverse_hvp_lissa(
 
             model.zero_grad()
             output = model(input_ids, attention_mask=input_mask, labels=label_id)
-            train_loss = output.loss * loss_scale
+            output_len = output.logits.size(1)
+            train_loss = output.loss / output_len
 
             # !ERROR: hvp has NaN values
             hvp = hv(train_loss, param_influence, cur_estimate)

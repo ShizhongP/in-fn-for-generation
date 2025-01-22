@@ -2,12 +2,10 @@ from transformers import (
     AutoTokenizer,
     AutoModelForSeq2SeqLM,
     DataCollatorForSeq2Seq,
-    T5Tokenizer,
     Seq2SeqTrainer,
     Seq2SeqTrainingArguments,
     DataCollatorForSeq2Seq,
 )
-from datasets import Dataset, load_dataset
 import argparse
 import pickle
 import torch
